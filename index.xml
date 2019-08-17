@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bill&#39;s Thought</title>
+    <link>https://billguo.cc/</link>
+    <description>Recent content on Bill&#39;s Thought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 16 Sep 2016 20:43:44 +0000</lastBuildDate>
+    
+        <atom:link href="https://billguo.cc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>关于</title>
+      <link>https://billguo.cc/about/</link>
+      <pubDate>Tue, 14 Jul 2015 21:38:52 +0800</pubDate>
+      
+      <guid>https://billguo.cc/about/</guid>
+      
+        <description>&lt;p&gt;Bill Guo&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;邮箱：billguocs#gmail.com&lt;/li&gt;
+&lt;li&gt;技能：Java/Js&lt;/li&gt;
+&lt;li&gt;爱好：多&lt;/li&gt;
+&lt;li&gt;简介：多学习，多踩坑，加强填坑能力&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://billguo.cc/post/</link>
+      <pubDate>Fri, 16 Sep 2016 20:43:44 +0000</pubDate>
+      
+      <guid>https://billguo.cc/post/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

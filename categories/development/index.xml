@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on Bill&#39;s Thought</title>
+    <link>https://billguo.cc/categories/development/</link>
+    <description>Recent content in Development on Bill&#39;s Thought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 11 Aug 2015 14:52:17 +0800</lastBuildDate>
+    
+	<atom:link href="https://billguo.cc/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>全排列问题(1)</title>
+      <link>https://billguo.cc/post/dfs/</link>
+      <pubDate>Tue, 11 Aug 2015 14:52:17 +0800</pubDate>
+      
+      <guid>https://billguo.cc/post/dfs/</guid>
+      <description>全排列问题，指假如给定字符串，输出所有子串可能的排列的问题。解法比较多，递归非递归都可以。 深度优先搜素（Depth First Search,DFS) 搜索算法的一种。是沿着</description>
+    </item>
+    
+  </channel>
+</rss>

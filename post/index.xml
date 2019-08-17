@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Bill&#39;s Thought</title>
+    <link>https://billguo.cc/post/</link>
+    <description>Recent content in Posts on Bill&#39;s Thought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 16 Sep 2016 20:43:44 +0000</lastBuildDate>
+    
+	<atom:link href="https://billguo.cc/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>sublime text3 常用快捷键</title>
+      <link>https://billguo.cc/post/sublime-shortcut-keys/</link>
+      <pubDate>Fri, 16 Sep 2016 20:43:44 +0000</pubDate>
+      
+      <guid>https://billguo.cc/post/sublime-shortcut-keys/</guid>
+      <description>Sublime Text3 常用的一些快捷键操作：包括跳转，编辑，选择，查找等。 Goto Anything (Navigation) Goto Anything: Ctrl + P Goto Symbol: Ctrl + R Goto Line: Ctrl + G Editing text Insert line before / after - Ctrl + Shift + Return / Ctrl + Return Copy line / Paste from history -</description>
+    </item>
+    
+    <item>
+      <title>全排列问题(1)</title>
+      <link>https://billguo.cc/post/dfs/</link>
+      <pubDate>Tue, 11 Aug 2015 14:52:17 +0800</pubDate>
+      
+      <guid>https://billguo.cc/post/dfs/</guid>
+      <description>全排列问题，指假如给定字符串，输出所有子串可能的排列的问题。解法比较多，递归非递归都可以。 深度优先搜素（Depth First Search,DFS) 搜索算法的一种。是沿着</description>
+    </item>
+    
+  </channel>
+</rss>
