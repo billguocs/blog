@@ -9,28 +9,56 @@
   </url>
   
   <url>
+    <loc>https://billguo.cc/tags/base64/</loc>
+    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://billguo.cc/post/tech/base64/</loc>
+    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://billguo.cc/</loc>
-    <lastmod>2017-08-28T21:41:52+08:00</lastmod>
+    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://billguo.cc/categories/</loc>
-    <lastmod>2016-09-16T20:43:44+00:00</lastmod>
+    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://billguo.cc/categories/other/</loc>
-    <lastmod>2016-09-16T20:43:44+00:00</lastmod>
+    <loc>https://billguo.cc/categories/development/</loc>
+    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://billguo.cc/post/</loc>
+    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://billguo.cc/tags/</loc>
+    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://billguo.cc/categories/other/</loc>
     <lastmod>2016-09-16T20:43:44+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -51,13 +79,6 @@
   </url>
   
   <url>
-    <loc>https://billguo.cc/tags/</loc>
-    <lastmod>2016-09-16T20:43:44+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://billguo.cc/categories/algorithm/</loc>
     <lastmod>2015-08-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -66,13 +87,6 @@
   
   <url>
     <loc>https://billguo.cc/tags/data-structure/</loc>
-    <lastmod>2015-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://billguo.cc/categories/development/</loc>
     <lastmod>2015-08-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

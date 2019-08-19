@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Bill&#39;s Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 16 Sep 2016 20:43:44 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jul 2019 23:00:29 +0800</lastBuildDate>
     
 	<atom:link href="https://billguo.cc/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Base64编码原理探究</title>
+      <link>https://billguo.cc/post/tech/base64/</link>
+      <pubDate>Wed, 10 Jul 2019 23:00:29 +0800</pubDate>
+      
+      <guid>https://billguo.cc/post/tech/base64/</guid>
+      <description>Base64背景 维基百科的解释 Base64是一种基于64个可打印字符来表示二进制数据的表示方法。由于2^6^=64，所以每6个bit为一个单</description>
+    </item>
     
     <item>
       <title>sublime text3 常用快捷键</title>
