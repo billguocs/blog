@@ -32,10 +32,10 @@
     
     <item>
       <title>sublime text3 常用快捷键</title>
-      <link>https://billguo.cc/post/development/sublime-shortcut-keys/</link>
+      <link>https://billguo.cc/post/tech/sublime-shortcut-keys/</link>
       <pubDate>Fri, 16 Sep 2016 20:43:44 +0000</pubDate>
       
-      <guid>https://billguo.cc/post/development/sublime-shortcut-keys/</guid>
+      <guid>https://billguo.cc/post/tech/sublime-shortcut-keys/</guid>
       
         <description>
 
@@ -130,10 +130,10 @@
     
     <item>
       <title>全排列问题(1)</title>
-      <link>https://billguo.cc/post/development/dfs/</link>
+      <link>https://billguo.cc/post/tech/dfs/</link>
       <pubDate>Tue, 11 Aug 2015 14:52:17 +0800</pubDate>
       
-      <guid>https://billguo.cc/post/development/dfs/</guid>
+      <guid>https://billguo.cc/post/tech/dfs/</guid>
       
         <description>&lt;p&gt;全排列问题，指假如给定字符串，输出所有子串可能的排列的问题。解法比较多，递归非递归都可以。&lt;/p&gt;
 
