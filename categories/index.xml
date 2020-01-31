@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Bill&#39;s Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 10 Jul 2019 23:00:29 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 28 Dec 2019 14:26:29 +0800</lastBuildDate>
     
 	<atom:link href="https://billguo.cc/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>随想</title>
+      <link>https://billguo.cc/categories/%E9%9A%8F%E6%83%B3/</link>
+      <pubDate>Sat, 28 Dec 2019 14:26:29 +0800</pubDate>
+      
+      <guid>https://billguo.cc/categories/%E9%9A%8F%E6%83%B3/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Development</title>

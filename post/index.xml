@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Bill&#39;s Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 10 Jul 2019 23:00:29 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 28 Dec 2019 14:26:29 +0800</lastBuildDate>
     
 	<atom:link href="https://billguo.cc/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>我的2019</title>
+      <link>https://billguo.cc/post/personal/my-2019/</link>
+      <pubDate>Sat, 28 Dec 2019 14:26:29 +0800</pubDate>
+      
+      <guid>https://billguo.cc/post/personal/my-2019/</guid>
+      <description>我的2019 时间过得很快，一晃在杭州已经快三年半了。感觉这几年就没怎么好好总结过自己的工作和生活。从今年开始还是好好做一下这件事情，在脑子里</description>
+    </item>
     
     <item>
       <title>Base64编码原理探究</title>

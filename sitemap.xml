@@ -9,6 +9,55 @@
   </url>
   
   <url>
+    <loc>https://billguo.cc/</loc>
+    <lastmod>2019-12-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://billguo.cc/categories/</loc>
+    <lastmod>2019-12-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://billguo.cc/post/</loc>
+    <lastmod>2019-12-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://billguo.cc/tags/</loc>
+    <lastmod>2019-12-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://billguo.cc/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2019-12-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://billguo.cc/post/personal/my-2019/</loc>
+    <lastmod>2019-12-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://billguo.cc/categories/%E9%9A%8F%E6%83%B3/</loc>
+    <lastmod>2019-12-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://billguo.cc/tags/base64/</loc>
     <lastmod>2019-08-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -23,35 +72,7 @@
   </url>
   
   <url>
-    <loc>https://billguo.cc/</loc>
-    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://billguo.cc/categories/</loc>
-    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://billguo.cc/categories/development/</loc>
-    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://billguo.cc/post/</loc>
-    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://billguo.cc/tags/</loc>
     <lastmod>2019-08-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

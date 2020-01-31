@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>随想 on Bill&#39;s Thought</title>
+    <link>https://billguo.cc/categories/%E9%9A%8F%E6%83%B3/</link>
+    <description>Recent content in 随想 on Bill&#39;s Thought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 28 Dec 2019 14:26:29 +0800</lastBuildDate>
+    
+	<atom:link href="https://billguo.cc/categories/%E9%9A%8F%E6%83%B3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>我的2019</title>
+      <link>https://billguo.cc/post/personal/my-2019/</link>
+      <pubDate>Sat, 28 Dec 2019 14:26:29 +0800</pubDate>
+      
+      <guid>https://billguo.cc/post/personal/my-2019/</guid>
+      <description>我的2019 时间过得很快，一晃在杭州已经快三年半了。感觉这几年就没怎么好好总结过自己的工作和生活。从今年开始还是好好做一下这件事情，在脑子里</description>
+    </item>
+    
+  </channel>
+</rss>

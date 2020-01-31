@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>全排列问题(1) - Bill&#39;s Thought</title>
+  <title>我的2019 - Bill&#39;s Thought</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -23,7 +23,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="Bill Guo" />
-  <meta name="description" content="全排列问题，指假如给定字符串，输出所有子串可能的排列的问题。解法比较多，递归非递归都可以。 深度优先搜素（Depth First Search,DFS) 搜索算法的一种。是沿着" />
+  <meta name="description" content="我的2019 时间过得很快，一晃在杭州已经快三年半了。感觉这几年就没怎么好好总结过自己的工作和生活。从今年开始还是好好做一下这件事情，在脑子里" />
 
   <meta name="keywords" content="Blog, Life, Code" />
 
@@ -35,7 +35,7 @@
 <meta name="generator" content="Hugo 0.57.2" />
 
 
-<link rel="canonical" href="https://billguo.cc/post/tech/dfs/" />
+<link rel="canonical" href="https://billguo.cc/post/personal/my-2019/" />
 
 
 
@@ -59,26 +59,26 @@
 
 
 
-<meta property="og:title" content="全排列问题(1)" />
-<meta property="og:description" content="全排列问题，指假如给定字符串，输出所有子串可能的排列的问题。解法比较多，递归非递归都可以。 深度优先搜素（Depth First Search,DFS) 搜索算法的一种。是沿着" />
+<meta property="og:title" content="我的2019" />
+<meta property="og:description" content="我的2019 时间过得很快，一晃在杭州已经快三年半了。感觉这几年就没怎么好好总结过自己的工作和生活。从今年开始还是好好做一下这件事情，在脑子里" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://billguo.cc/post/tech/dfs/" />
-<meta property="article:published_time" content="2015-08-11T14:52:17+08:00" />
-<meta property="article:modified_time" content="2015-08-12T00:00:00+00:00" />
-<meta itemprop="name" content="全排列问题(1)">
-<meta itemprop="description" content="全排列问题，指假如给定字符串，输出所有子串可能的排列的问题。解法比较多，递归非递归都可以。 深度优先搜素（Depth First Search,DFS) 搜索算法的一种。是沿着">
+<meta property="og:url" content="https://billguo.cc/post/personal/my-2019/" />
+<meta property="article:published_time" content="2019-12-28T14:26:29+08:00" />
+<meta property="article:modified_time" content="2019-12-28T00:00:00+00:00" />
+<meta itemprop="name" content="我的2019">
+<meta itemprop="description" content="我的2019 时间过得很快，一晃在杭州已经快三年半了。感觉这几年就没怎么好好总结过自己的工作和生活。从今年开始还是好好做一下这件事情，在脑子里">
 
 
-<meta itemprop="datePublished" content="2015-08-11T14:52:17&#43;08:00" />
-<meta itemprop="dateModified" content="2015-08-12T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="369">
+<meta itemprop="datePublished" content="2019-12-28T14:26:29&#43;08:00" />
+<meta itemprop="dateModified" content="2019-12-28T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1068">
 
 
 
-<meta itemprop="keywords" content="Data Structure,DFS," />
+<meta itemprop="keywords" content="年度总结," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="全排列问题(1)"/>
-<meta name="twitter:description" content="全排列问题，指假如给定字符串，输出所有子串可能的排列的问题。解法比较多，递归非递归都可以。 深度优先搜素（Depth First Search,DFS) 搜索算法的一种。是沿着"/>
+<meta name="twitter:title" content="我的2019"/>
+<meta name="twitter:description" content="我的2019 时间过得很快，一晃在杭州已经快三年半了。感觉这几年就没怎么好好总结过自己的工作和生活。从今年开始还是好好做一下这件事情，在脑子里"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -298,19 +298,18 @@
           <article class="post bg-white">
     
     <header class="post-header">
-      <h1 class="post-title">全排列问题(1)</h1>
+      <h1 class="post-title">我的2019</h1>
       
       <div class="post-meta">
-        <time datetime="2015-08-11" class="post-time">
-          2015-08-11
+        <time datetime="2019-12-28" class="post-time">
+          2019-12-28
         </time>
         <div class="post-category">
-            <a href="https://billguo.cc/categories/development/"> Development </a>
-            <a href="https://billguo.cc/categories/algorithm/"> Algorithm </a>
+            <a href="https://billguo.cc/categories/%E9%9A%8F%E6%83%B3/"> 随想 </a>
             
           </div>
-        <span class="more-meta"> 约 369 字 </span>
-          <span class="more-meta"> 预计阅读 1 分钟 </span>
+        <span class="more-meta"> 约 1068 字 </span>
+          <span class="more-meta"> 预计阅读 3 分钟 </span>
 
         
         
@@ -325,54 +324,51 @@
 <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">文章目录</h2>
   <div class="post-toc-content">
-    
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#我的2019">我的2019</a>
+<ul>
+<li><a href="#工作">工作</a></li>
+<li><a href="#生活">生活</a></li>
+<li><a href="#明年的打算">明年的打算</a></li>
+</ul></li>
+</ul>
+</nav>
   </div>
 </div>
 
     
     <div class="post-content">
-      <p>全排列问题，指假如给定字符串，输出所有子串可能的排列的问题。解法比较多，递归非递归都可以。</p>
+      
 
-<blockquote>
-<p>深度优先搜素（Depth First Search,DFS)
-搜索算法的一种。是沿着树的深度遍历树的节点，尽可能深的搜索树的分支。当节点 v 的所在边都己被探寻过，搜索将回溯到发现节点 v 的那条边的起始节点。这一过程一直进行到已发现从源节点可达的所有节点为止。如果还存在未被发现的节点，则选择其中一个作为源节点并重复以上过程，整个进程反复进行直到所有节点都被访问为止。属于盲目搜索。</p>
-</blockquote>
+<h1 id="我的2019">我的2019</h1>
 
-<p>DFS 的基本模型：</p>
-<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="ln">1</span><span class="kt">void</span> <span class="nf">dfs</span><span class="p">(</span><span class="kt">int</span> <span class="n">step</span><span class="p">)</span>
-<span class="ln">2</span><span class="p">{</span>
-<span class="ln">3</span>    <span class="err">判断边界</span>
-<span class="ln">4</span>    <span class="err">尝试每一种可能</span> <span class="k">for</span><span class="p">(</span><span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span><span class="n">i</span><span class="o">&lt;=</span><span class="n">n</span><span class="p">;</span><span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-<span class="ln">5</span>        <span class="err">继续下一步</span> <span class="n">dfs</span><span class="p">(</span><span class="n">step</span><span class="o">+</span><span class="mi">1</span><span class="p">);</span>
-<span class="ln">6</span>    <span class="p">}</span>
-<span class="ln">7</span>    <span class="k">return</span><span class="p">;</span>
-<span class="ln">8</span><span class="p">}</span>
-</code></pre></div>
-<p>关键代码：</p>
-<div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="ln"> 1</span><span class="kt">bool</span> <span class="nf">dfs</span><span class="p">(</span><span class="n">string</span> <span class="o">&amp;</span><span class="n">bunch</span><span class="p">,</span> <span class="kt">int</span> <span class="n">bLen</span><span class="p">,</span> <span class="n">string</span> <span class="n">str</span><span class="p">)</span>
-<span class="ln"> 2</span><span class="p">{</span>
-<span class="ln"> 3</span>    <span class="k">if</span> <span class="p">(</span><span class="n">bLen</span> <span class="o">==</span> <span class="n">str</span><span class="p">.</span><span class="n">length</span><span class="p">())</span> <span class="p">{</span>
-<span class="ln"> 4</span>            <span class="c1">//
-</span><span class="ln"> 5</span><span class="c1"></span>    <span class="p">}</span>
-<span class="ln"> 6</span>
-<span class="ln"> 7</span>    <span class="n">string</span><span class="o">::</span><span class="n">size_type</span> <span class="n">i</span><span class="p">;</span>
-<span class="ln"> 8</span>    <span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">bLen</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>
-<span class="ln"> 9</span>        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">vis</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="p">{</span>
-<span class="ln">10</span>            <span class="n">vis</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
-<span class="ln">11</span>            <span class="n">str</span> <span class="o">+=</span> <span class="n">bunch</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
-<span class="ln">12</span>            <span class="k">if</span> <span class="p">(</span><span class="n">dfs</span><span class="p">(</span><span class="n">bunch</span><span class="p">,</span> <span class="n">bLen</span><span class="p">,</span> <span class="n">str</span><span class="p">))</span> <span class="p">{</span>
-<span class="ln">13</span>                <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
-<span class="ln">14</span>            <span class="p">}</span>
-<span class="ln">15</span>            <span class="n">vis</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="nb">false</span><span class="p">;</span>
-<span class="ln">16</span>            <span class="n">str</span> <span class="o">=</span> <span class="n">str</span><span class="p">.</span><span class="n">substr</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">str</span><span class="p">.</span><span class="n">length</span><span class="p">()</span> <span class="o">-</span> <span class="mi">1</span><span class="p">);</span>
-<span class="ln">17</span>        <span class="p">}</span>
-<span class="ln">18</span>    <span class="p">}</span>   <span class="c1">// End of for
-</span><span class="ln">19</span><span class="c1"></span>    <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
-<span class="ln">20</span><span class="p">}</span>
-</code></pre></div>
-<hr />
+<p>时间过得很快，一晃在杭州已经快三年半了。感觉这几年就没怎么好好总结过自己的工作和生活。从今年开始还是好好做一下这件事情，在脑子里边空想，和用文字记录下来始终是不一样的。回顾下过去，也给明年定一下目标，而不是单纯的<code>mv 2019-todo.txt 2020-todo.txt</code>。</p>
 
-<p>全排列问题还有很多种变形问题，比如涉及去重等等。后面再具体补充。</p>
+<h2 id="工作">工作</h2>
+
+<p>先说说工作上的事情。</p>
+
+<p>本来年初的时候开始着手进行新系统的开发任务，使用的技术栈也是目前市场上相对比较主流的，这样自己的所学刚好能够有输出的地方。<code>Spring Boot</code>和<code>Spring Cloud</code>的相关组件，以前只是自己写着玩，现在总算能付诸在实际的产品中了。中间还搞了一段时间的<code>Vue</code>组件的封装，做了一下前端组件的自动生成框架。但是好景不长，没做多久就由于组织架构调整，又把我调回去了。又回到以前<code>Spring MVC</code>，写<code>Oracle</code>存储过程的日子。好刀不磨会生锈，技术学了不用，也是会忘记的。</p>
+
+<p>还好自己的相关工作也不是业务强相关的，也自己找了一些事情来做。包括老产品几个微服务的拆分，设计和实现，中间也学到了不少东西。倒也不是全无收获。</p>
+
+<h2 id="生活">生活</h2>
+
+<p>生活上可以说是糟透了。</p>
+
+<p>工作中的不如意确实是会一点点影响生活的。由于最近一两年都疏于锻炼，身体状态可以说每况愈下。九月份的时候，突发了阑尾炎。由于一些原因当时又不能做手术，连续挂了好几天的水。今年以来，肠胃也是频频出问题，确实影响平时的状态，而且还带有轻微的焦虑症，也是来来去去跑了好几次医院。这种状态真的让人后背发凉，一个是身体上的折磨，一个是心理的焦虑。年纪轻轻，但是却像个几十岁的老人，没有朝气，自己想想也觉得可怕。</p>
+
+<h2 id="明年的打算">明年的打算</h2>
+
+<ul>
+<li>回去割掉阑尾，检查一下肠胃，每天无论多忙也要适量运动。身体是革命的本钱，确实不是没有道理的。身体不断地给出警告，还不引起重视肯定不行。</li>
+<li>多阅读源码。这段时间以来，进步缓慢，不只是身体的原因，也有自己懈怠的原因。之前定好了什么什么计划，实际落实的却没有多少，明年争取有所改变。</li>
+<li><code>Java</code>相关的技术栈，几种<code>MicroService</code>或者<code>Serveless</code>的解决方案都了解一下。</li>
+<li>刷刷LeetCode，算法和数据结构不多多练习，忘记得太快了。</li>
+<li>还有就是，写博客的这个习惯，以前我也经常写这个东西，但是记录下的东西感觉都是写皮毛，或者搞些很基础的东西，就相当于在制造垃圾，不怎么整理然后就删掉了。现在想想，其实放到自己的博客里边又有什么关系呢，反正也没人来看，就当自己的笔记好了。</li>
+<li>每年其实也阅读了不少书籍，不管是技术类的还是社科类的，后面也单独弄一个文档记录下来，有些重要的可以用思维导图的方式自己终结归纳一下。学而时习之，不亦说乎？</li>
+</ul>
 
     </div>
 
@@ -386,7 +382,7 @@
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-      2015-08-12
+      2019-12-28
       
     </span>
   </p>
@@ -403,28 +399,27 @@
 
     <footer class="post-footer">
       <div class="post-tags">
-          <a href="https://billguo.cc/tags/data-structure/">Data Structure</a>
-          <a href="https://billguo.cc/tags/dfs/">DFS</a>
+          <a href="https://billguo.cc/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/">年度总结</a>
           
         </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/post/tech/sublime-shortcut-keys/">
+        
+          <a class="next" href="/post/tech/base64/">
+            <span class="next-text nav-default">Base64编码原理探究</span>
+            <span class="prev-text nav-mobile">下一篇</span>
             
             <i class="iconfont">
-              <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
+              <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
   width="18" height="18">
-  <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
+  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
 </svg>
 
             </i>
-            <span class="prev-text nav-default">sublime text3 常用快捷键</span>
-            <span class="prev-text nav-mobile">上一篇</span>
           </a>
-        
       </nav>
     </footer>
   </article>
