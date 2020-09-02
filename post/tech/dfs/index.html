@@ -32,7 +32,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.57.2" />
+<meta name="generator" content="Hugo 0.74.3" />
 
 
 <link rel="canonical" href="https://billguo.cc/post/tech/dfs/" />
@@ -67,10 +67,8 @@
 <meta property="article:modified_time" content="2015-08-12T00:00:00+00:00" />
 <meta itemprop="name" content="全排列问题(1)">
 <meta itemprop="description" content="全排列问题，指假如给定字符串，输出所有子串可能的排列的问题。解法比较多，递归非递归都可以。 深度优先搜素（Depth First Search,DFS) 搜索算法的一种。是沿着">
-
-
-<meta itemprop="datePublished" content="2015-08-11T14:52:17&#43;08:00" />
-<meta itemprop="dateModified" content="2015-08-12T00:00:00&#43;00:00" />
+<meta itemprop="datePublished" content="2015-08-11T14:52:17+08:00" />
+<meta itemprop="dateModified" content="2015-08-12T00:00:00+00:00" />
 <meta itemprop="wordCount" content="369">
 
 
@@ -325,19 +323,17 @@
 <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">文章目录</h2>
   <div class="post-toc-content">
-    
+    <nav id="TableOfContents"></nav>
   </div>
 </div>
 
     
     <div class="post-content">
       <p>全排列问题，指假如给定字符串，输出所有子串可能的排列的问题。解法比较多，递归非递归都可以。</p>
-
 <blockquote>
 <p>深度优先搜素（Depth First Search,DFS)
 搜索算法的一种。是沿着树的深度遍历树的节点，尽可能深的搜索树的分支。当节点 v 的所在边都己被探寻过，搜索将回溯到发现节点 v 的那条边的起始节点。这一过程一直进行到已发现从源节点可达的所有节点为止。如果还存在未被发现的节点，则选择其中一个作为源节点并重复以上过程，整个进程反复进行直到所有节点都被访问为止。属于盲目搜索。</p>
 </blockquote>
-
 <p>DFS 的基本模型：</p>
 <div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="ln">1</span><span class="kt">void</span> <span class="nf">dfs</span><span class="p">(</span><span class="kt">int</span> <span class="n">step</span><span class="p">)</span>
 <span class="ln">2</span><span class="p">{</span>
@@ -347,8 +343,7 @@
 <span class="ln">6</span>    <span class="p">}</span>
 <span class="ln">7</span>    <span class="k">return</span><span class="p">;</span>
 <span class="ln">8</span><span class="p">}</span>
-</code></pre></div>
-<p>关键代码：</p>
+</code></pre></div><p>关键代码：</p>
 <div class="highlight"><pre class="chroma"><code class="language-c++" data-lang="c++"><span class="ln"> 1</span><span class="kt">bool</span> <span class="nf">dfs</span><span class="p">(</span><span class="n">string</span> <span class="o">&amp;</span><span class="n">bunch</span><span class="p">,</span> <span class="kt">int</span> <span class="n">bLen</span><span class="p">,</span> <span class="n">string</span> <span class="n">str</span><span class="p">)</span>
 <span class="ln"> 2</span><span class="p">{</span>
 <span class="ln"> 3</span>    <span class="k">if</span> <span class="p">(</span><span class="n">bLen</span> <span class="o">==</span> <span class="n">str</span><span class="p">.</span><span class="n">length</span><span class="p">())</span> <span class="p">{</span>
@@ -369,9 +364,7 @@
 <span class="ln">18</span>    <span class="p">}</span>   <span class="c1">// End of for
 </span><span class="ln">19</span><span class="c1"></span>    <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
 <span class="ln">20</span><span class="p">}</span>
-</code></pre></div>
-<hr />
-
+</code></pre></div><hr>
 <p>全排列问题还有很多种变形问题，比如涉及去重等等。后面再具体补充。</p>
 
     </div>
