@@ -26,4 +26,4 @@ deploy:
   fqdn: billguo.cc 
   keep_history: true # 是否保持target-branch分支的提交记录
   on:
-    branch: master
+    branch: main
