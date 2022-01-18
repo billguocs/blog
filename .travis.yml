@@ -7,7 +7,7 @@ go:
 #   only:
 #     - master
 install: 
-  - wget https://github.com/gohugoio/hugo/releases/download/v0.89.4/hugo_0.89.4_Linux-64bit.deb
+  - wget hhttps://github.com/gohugoio/hugo/releases/download/v0.89.4/hugo_extended_0.89.4_Linux-64bit.deb
 
   - sudo dpkg -i hugo*.deb
   # 安装主题
