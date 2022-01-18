@@ -1,41 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Bill&#39;s Thought</title>
-    <link>https://billguo.cc/</link>
-    <description>Recent content on Bill&#39;s Thought</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 28 Dec 2019 14:26:29 +0800</lastBuildDate>
-    
-        <atom:link href="https://billguo.cc/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>关于</title>
-      <link>https://billguo.cc/about/</link>
-      <pubDate>Tue, 14 Jul 2015 21:38:52 +0800</pubDate>
-      
-      <guid>https://billguo.cc/about/</guid>
-      
-        <description>&lt;p&gt;Bill Guo&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;邮箱：billguocs#gmail.com&lt;/li&gt;
-&lt;li&gt;技能：Java/JavaScript&lt;/li&gt;
-&lt;li&gt;爱好：篮球、阅读&lt;/li&gt;
-&lt;li&gt;简介：前后端都会一点，也只会一点。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>我的2019</title>
-      <link>https://billguo.cc/post/personal/my-2019/</link>
-      <pubDate>Sat, 28 Dec 2019 14:26:29 +0800</pubDate>
-      
-      <guid>https://billguo.cc/post/personal/my-2019/</guid>
-      
+    <channel>
+        <title>Bill&#39;s Thought</title>
+        <link>https://billguo.cc/</link>
+        <description>Recent content on Bill&#39;s Thought</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 28 Dec 2019 14:26:29 +0800</lastBuildDate><atom:link href="https://billguo.cc/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>我的2019</title>
+        <link>https://billguo.cc/post/personal/my-2019/</link>
+        <pubDate>Sat, 28 Dec 2019 14:26:29 +0800</pubDate>
+        
+        <guid>https://billguo.cc/post/personal/my-2019/</guid>
         <description>&lt;h1 id=&#34;我的2019&#34;&gt;我的2019&lt;/h1&gt;
 &lt;p&gt;时间过得很快，一晃在杭州已经快三年半了。感觉这几年就没怎么好好总结过自己的工作和生活。从今年开始还是好好做一下这件事情，在脑子里边空想，和用文字记录下来始终是不一样的。回顾下过去，也给明年定一下目标，而不是单纯的&lt;code&gt;mv 2019-todo.txt 2020-todo.txt&lt;/code&gt;。&lt;/p&gt;
 &lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
@@ -55,16 +31,13 @@
 &lt;li&gt;每年其实也阅读了不少书籍，不管是技术类的还是社科类的，后面也单独弄一个文档记录下来，有些重要的可以用思维导图的方式自己终结归纳一下。学而时习之，不亦说乎？&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      
-    </item>
-    
-    <item>
-      <title>Base64编码原理探究</title>
-      <link>https://billguo.cc/post/tech/base64/</link>
-      <pubDate>Wed, 10 Jul 2019 23:00:29 +0800</pubDate>
-      
-      <guid>https://billguo.cc/post/tech/base64/</guid>
-      
+        </item>
+        <item>
+        <title>Base64编码原理探究</title>
+        <link>https://billguo.cc/post/tech/base64/</link>
+        <pubDate>Wed, 10 Jul 2019 23:00:29 +0800</pubDate>
+        
+        <guid>https://billguo.cc/post/tech/base64/</guid>
         <description>&lt;h4 id=&#34;base64背景&#34;&gt;Base64背景&lt;/h4&gt;
 &lt;h5 id=&#34;维基百科的解释&#34;&gt;维基百科的解释&lt;/h5&gt;
 &lt;blockquote&gt;
@@ -84,7 +57,20 @@
 &lt;ul&gt;
 &lt;li&gt;通常情况&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.loli.net/2019/08/19/wAI6OgLye95bpvM.png&#34; alt=&#34;1565001808032.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://i.loli.net/2019/08/19/wAI6OgLye95bpvM.png&#34; &gt;
+		&lt;img src=&#34;https://i.loli.net/2019/08/19/wAI6OgLye95bpvM.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;1565001808032.png&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;1565001808032.png&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;将待编码的字符串中各个字母的ASCII码查出.&lt;/li&gt;
 &lt;li&gt;将ASCII码转化为8位2进制表示，如文本&lt;em&gt;M&lt;/em&gt;的ASCII码为&lt;code&gt;77&lt;/code&gt;，用二进制表示则为&lt;code&gt;01001101&lt;/code&gt;.&lt;/li&gt;
@@ -94,7 +80,20 @@
 &lt;ul&gt;
 &lt;li&gt;当字节不能被3整除时:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.loli.net/2019/08/19/NVT13aJqrZpcfzy.png&#34; alt=&#34;1565001979601.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://i.loli.net/2019/08/19/NVT13aJqrZpcfzy.png&#34; &gt;
+		&lt;img src=&#34;https://i.loli.net/2019/08/19/NVT13aJqrZpcfzy.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;1565001979601.png&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;1565001979601.png&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;当无法被整除时，base64要在后面添加&lt;code&gt;\0&lt;/code&gt;凑齐&lt;code&gt;3n&lt;/code&gt;位，使二进制序列的长度成为&lt;code&gt;24&lt;/code&gt;的倍数(6和8的最小公倍数).&lt;/li&gt;
 &lt;li&gt;由于不断补&lt;code&gt;0&lt;/code&gt;,对应产生的空字符将用等号&lt;code&gt;=&lt;/code&gt;填充，所以等号的个数必为0个，1个或2个.&lt;/li&gt;
@@ -103,18 +102,18 @@
 &lt;li&gt;
 &lt;p&gt;其他场景&lt;/p&gt;
 &lt;p&gt;标准的Base64并不适合直接放在URL里传输，因为URL编码器会把标准Base64中的&lt;code&gt;/&lt;/code&gt;和&lt;code&gt;+&lt;/code&gt;字符变为形如&lt;code&gt;%XX&lt;/code&gt;的形式，而这些&lt;code&gt;%&lt;/code&gt;号在存入数据库时还需要再进行转换，因为ANSI SQL中已将&lt;code&gt;%&lt;/code&gt;号用作通配符。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;base64&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;  
-&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;encode_str&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;base64&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;b64encode&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;ac&amp;gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;encode&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;result: &amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;encode_str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;url_safe_encode_str&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;base64&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;urlsafe_b64encode&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;ac&amp;gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;encode&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;result: &amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;url_safe_encode_str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; base64
+
+encode_str &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; base64&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;b64encode(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;ac&amp;gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;encode(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;))
+print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;result: &amp;#34;&lt;/span&gt;, encode_str)
+url_safe_encode_str &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; base64&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;urlsafe_b64encode(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;ac&amp;gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;encode(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;))
+print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;result: &amp;#34;&lt;/span&gt;, url_safe_encode_str)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;运行结果：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;Running&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; python -u &lt;span class=&#34;s2&#34;&gt;&amp;#34;d:\urlsafe.py&amp;#34;&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;result:  b&lt;span class=&#34;s1&#34;&gt;&amp;#39;YWM+&amp;#39;&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;result:  b&lt;span class=&#34;s1&#34;&gt;&amp;#39;YWM-&amp;#39;&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;  
-&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;Done&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; exited with &lt;span class=&#34;nv&#34;&gt;code&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt; in 0.424 seconds
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;Running&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; python -u &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;d:\urlsafe.py&amp;#34;&lt;/span&gt;
+result:  b&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;YWM+&amp;#39;&lt;/span&gt;
+result:  b&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;YWM-&amp;#39;&lt;/span&gt;
+
+&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;Done&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; exited with code&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; in 0.424 seconds
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h5 id=&#34;解码过程&#34;&gt;解码过程&lt;/h5&gt;
@@ -123,16 +122,13 @@
 &lt;p&gt;一般来说，由于使用base64编码后的长度通常是原字符长度的&lt;code&gt;4/3&lt;/code&gt;倍.
 &lt;!-- raw HTML omitted --&gt;其实在补&lt;code&gt;0&lt;/code&gt;的问题上，我也疑惑过为什么要一直补到&lt;code&gt;24&lt;/code&gt;的倍数. 实际上这样做不仅是实现上的问题，而且当两个编码结果进行拼接之后，解码过程也能顺利进行.这样一想，应该就能很好理解了.&lt;/p&gt;
 </description>
-      
-    </item>
-    
-    <item>
-      <title>sublime text3 常用快捷键</title>
-      <link>https://billguo.cc/post/tech/sublime-shortcut-keys/</link>
-      <pubDate>Fri, 16 Sep 2016 20:43:44 +0000</pubDate>
-      
-      <guid>https://billguo.cc/post/tech/sublime-shortcut-keys/</guid>
-      
+        </item>
+        <item>
+        <title>sublime text3 常用快捷键</title>
+        <link>https://billguo.cc/post/tech/sublime-shortcut-keys/</link>
+        <pubDate>Fri, 16 Sep 2016 20:43:44 +0000</pubDate>
+        
+        <guid>https://billguo.cc/post/tech/sublime-shortcut-keys/</guid>
         <description>&lt;p&gt;Sublime Text3 常用的一些快捷键操作：包括跳转，编辑，选择，查找等。&lt;/p&gt;
 &lt;hr&gt;
 &lt;h4 id=&#34;goto-anything-navigation&#34;&gt;Goto Anything (Navigation)&lt;/h4&gt;
@@ -206,56 +202,52 @@
 &lt;li&gt;Command Palette - &lt;code&gt;Ctrl + Shift + P&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      
-    </item>
-    
-    <item>
-      <title>全排列问题(1)</title>
-      <link>https://billguo.cc/post/tech/dfs/</link>
-      <pubDate>Tue, 11 Aug 2015 14:52:17 +0800</pubDate>
-      
-      <guid>https://billguo.cc/post/tech/dfs/</guid>
-      
+        </item>
+        <item>
+        <title>全排列问题(1)</title>
+        <link>https://billguo.cc/post/tech/dfs/</link>
+        <pubDate>Tue, 11 Aug 2015 14:52:17 +0800</pubDate>
+        
+        <guid>https://billguo.cc/post/tech/dfs/</guid>
         <description>&lt;p&gt;全排列问题，指假如给定字符串，输出所有子串可能的排列的问题。解法比较多，递归非递归都可以。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;深度优先搜素（Depth First Search,DFS)
 搜索算法的一种。是沿着树的深度遍历树的节点，尽可能深的搜索树的分支。当节点 v 的所在边都己被探寻过，搜索将回溯到发现节点 v 的那条边的起始节点。这一过程一直进行到已发现从源节点可达的所有节点为止。如果还存在未被发现的节点，则选择其中一个作为源节点并重复以上过程，整个进程反复进行直到所有节点都被访问为止。属于盲目搜索。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;DFS 的基本模型：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;dfs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;step&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;    &lt;span class=&#34;err&#34;&gt;判断边界&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;    &lt;span class=&#34;err&#34;&gt;尝试每一种可能&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;        &lt;span class=&#34;err&#34;&gt;继续下一步&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;dfs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;step&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;7&lt;/span&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;dfs&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; step)
+{
+    &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;判断边界&lt;/span&gt;
+    &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;尝试每一种可能&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt;(i&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;;i&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;=&lt;/span&gt;n;i&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;) {
+        &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;继续下一步&lt;/span&gt; dfs(step&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;);
+    }
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt;;
+}
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;关键代码：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;bool&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;dfs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;string&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;bunch&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;bLen&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;string&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;bLen&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;())&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;            &lt;span class=&#34;c1&#34;&gt;//
-&lt;/span&gt;&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;    &lt;span class=&#34;n&#34;&gt;string&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size_type&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;    &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;bLen&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;        &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;vis&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;            &lt;span class=&#34;n&#34;&gt;vis&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;11&lt;/span&gt;            &lt;span class=&#34;n&#34;&gt;str&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;bunch&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;12&lt;/span&gt;            &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;dfs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;bunch&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;bLen&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;13&lt;/span&gt;                &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;14&lt;/span&gt;            &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;15&lt;/span&gt;            &lt;span class=&#34;n&#34;&gt;vis&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;16&lt;/span&gt;            &lt;span class=&#34;n&#34;&gt;str&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;substr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;17&lt;/span&gt;        &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;18&lt;/span&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;   &lt;span class=&#34;c1&#34;&gt;// End of for
-&lt;/span&gt;&lt;span class=&#34;ln&#34;&gt;19&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;bool&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;dfs&lt;/span&gt;(string &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;bunch, &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; bLen, string str)
+{
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (bLen &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; str.length()) {
+            &lt;span style=&#34;color:#75715e&#34;&gt;//
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    }
+
+    string&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;size_type i;
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; (i &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;; i &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; bLen; &lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;i) {
+        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#f92672&#34;&gt;!&lt;/span&gt;vis[i]) {
+            vis[i] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; true;
+            str &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; bunch[i];
+            &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (dfs(bunch, bLen, str)) {
+                &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; true;
+            }
+            vis[i] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; false;
+            str &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; str.substr(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, str.length() &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;);
+        }
+    }   &lt;span style=&#34;color:#75715e&#34;&gt;// End of for
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; false;
+}
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;p&gt;全排列问题还有很多种变形问题，比如涉及去重等等。后面再具体补充。&lt;/p&gt;
 </description>
-      
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

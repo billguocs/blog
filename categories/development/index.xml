@@ -5,12 +5,8 @@
     <link>https://billguo.cc/categories/development/</link>
     <description>Recent content in Development on Bill&#39;s Thought</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 10 Jul 2019 23:00:29 +0800</lastBuildDate>
-    
-	<atom:link href="https://billguo.cc/categories/development/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Jul 2019 23:00:29 +0800</lastBuildDate><atom:link href="https://billguo.cc/categories/development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Base64编码原理探究</title>
       <link>https://billguo.cc/post/tech/base64/</link>
