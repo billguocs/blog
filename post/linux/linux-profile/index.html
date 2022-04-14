@@ -175,14 +175,15 @@
     <section class="article-content">
     
     
-    <p>登入系统获取一个shell进程时，读取环境变量有几步：</p>
+    <p>登入系统获取一个<code>shell</code>进程时，读取环境变量有几步：</p>
 <ol>
 <li>首先读入全局变量 <code>/etc/profile</code>，然后根据其内容读取额外的设定的文档，如 <code>/etc/profile.d</code>和<code>/etc/inputrc</code></li>
 <li>然后根据不同用户读取<code>~</code>路径下<code>.bash_profile</code>，如果这读取不了就读取<code>~/.bash_login</code>，这个也读取不了才会读取<code>~/.profile</code>，这三个文档设定基本上是一样的，读取有优先关系</li>
 <li>然后根据用户账号读取<code>~/.bashrc</code></li>
 </ol>
-<p><strong>其他</strong><!-- raw HTML omitted -->
-<code>~/.profile</code>可以设定本用户专有的路径，环境变量等，它只在登入的时候执行一次<!-- raw HTML omitted --><code>~/.bashrc</code>也是某用户专有设定文档，可以设定路径，命令别名，每次shell script的执行都会使用它一次</p>
+<p><strong>其他</strong><br>
+<code>~/.profile</code>可以设定本用户专有的路径，环境变量等，它只在登入的时候执行一次<br>
+<code>~/.bashrc</code>也是某用户专有设定文档，可以设定路径，设置<code>alias</code>，每次<code>shell script</code>的执行都会使用它一次</p>
 
 </section>
 

@@ -27,14 +27,15 @@
         <pubDate>Thu, 14 Apr 2022 23:16:42 +0800</pubDate>
         
         <guid>https://billguo.cc/post/linux/linux-profile/</guid>
-        <description>&lt;p&gt;登入系统获取一个shell进程时，读取环境变量有几步：&lt;/p&gt;
+        <description>&lt;p&gt;登入系统获取一个&lt;code&gt;shell&lt;/code&gt;进程时，读取环境变量有几步：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;首先读入全局变量 &lt;code&gt;/etc/profile&lt;/code&gt;，然后根据其内容读取额外的设定的文档，如 &lt;code&gt;/etc/profile.d&lt;/code&gt;和&lt;code&gt;/etc/inputrc&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;然后根据不同用户读取&lt;code&gt;~&lt;/code&gt;路径下&lt;code&gt;.bash_profile&lt;/code&gt;，如果这读取不了就读取&lt;code&gt;~/.bash_login&lt;/code&gt;，这个也读取不了才会读取&lt;code&gt;~/.profile&lt;/code&gt;，这三个文档设定基本上是一样的，读取有优先关系&lt;/li&gt;
 &lt;li&gt;然后根据用户账号读取&lt;code&gt;~/.bashrc&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;其他&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;code&gt;~/.profile&lt;/code&gt;可以设定本用户专有的路径，环境变量等，它只在登入的时候执行一次&lt;!-- raw HTML omitted --&gt;&lt;code&gt;~/.bashrc&lt;/code&gt;也是某用户专有设定文档，可以设定路径，命令别名，每次shell script的执行都会使用它一次&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;其他&lt;/strong&gt;&lt;br&gt;
+&lt;code&gt;~/.profile&lt;/code&gt;可以设定本用户专有的路径，环境变量等，它只在登入的时候执行一次&lt;br&gt;
+&lt;code&gt;~/.bashrc&lt;/code&gt;也是某用户专有设定文档，可以设定路径，设置&lt;code&gt;alias&lt;/code&gt;，每次&lt;code&gt;shell script&lt;/code&gt;的执行都会使用它一次&lt;/p&gt;
 </description>
         </item>
         <item>
