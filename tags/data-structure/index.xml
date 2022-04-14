@@ -1,20 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Data Structure on Bill&#39;s Thought</title>
-    <link>https://billguo.cc/tags/data-structure/</link>
-    <description>Recent content in Data Structure on Bill&#39;s Thought</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 11 Aug 2015 14:52:17 +0800</lastBuildDate><atom:link href="https://billguo.cc/tags/data-structure/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>全排列问题(1)</title>
-      <link>https://billguo.cc/post/tech/dfs/</link>
-      <pubDate>Tue, 11 Aug 2015 14:52:17 +0800</pubDate>
-      
-      <guid>https://billguo.cc/post/tech/dfs/</guid>
-      <description>全排列问题，指假如给定字符串，输出所有子串可能的排列的问题。解法比较多，递归非递归都可以。 深度优先搜素（Depth First Search,DFS) 搜索算法的一种。是沿着</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>Data Structure on Bill&#39;s Thought</title>
+        <link>https://billguo.cc/tags/data-structure/</link>
+        <description>Recent content in Data Structure on Bill&#39;s Thought</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 11 Aug 2015 14:52:17 +0800</lastBuildDate><atom:link href="https://billguo.cc/tags/data-structure/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>全排列问题(1)</title>
+        <link>https://billguo.cc/post/tech/dfs/</link>
+        <pubDate>Tue, 11 Aug 2015 14:52:17 +0800</pubDate>
+        
+        <guid>https://billguo.cc/post/tech/dfs/</guid>
+        <description>&lt;p&gt;全排列问题，指假如给定字符串，输出所有子串可能的排列的问题。解法比较多，递归非递归都可以。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;深度优先搜素（Depth First Search,DFS)
+搜索算法的一种。是沿着树的深度遍历树的节点，尽可能深的搜索树的分支。当节点 v 的所在边都己被探寻过，搜索将回溯到发现节点 v 的那条边的起始节点。这一过程一直进行到已发现从源节点可达的所有节点为止。如果还存在未被发现的节点，则选择其中一个作为源节点并重复以上过程，整个进程反复进行直到所有节点都被访问为止。属于盲目搜索。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;DFS 的基本模型：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;dfs&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; step)
+{
+    &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;判断边界&lt;/span&gt;
+    &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;尝试每一种可能&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt;(i&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;;i&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;=&lt;/span&gt;n;i&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;) {
+        &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;继续下一步&lt;/span&gt; dfs(step&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;);
+    }
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt;;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;关键代码：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;bool&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;dfs&lt;/span&gt;(string &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;bunch, &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; bLen, string str)
+{
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (bLen &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; str.length()) {
+            &lt;span style=&#34;color:#75715e&#34;&gt;//
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    }
+
+    string&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;size_type i;
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; (i &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;; i &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; bLen; &lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;i) {
+        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#f92672&#34;&gt;!&lt;/span&gt;vis[i]) {
+            vis[i] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; true;
+            str &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; bunch[i];
+            &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (dfs(bunch, bLen, str)) {
+                &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; true;
+            }
+            vis[i] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; false;
+            str &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; str.substr(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, str.length() &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;);
+        }
+    }   &lt;span style=&#34;color:#75715e&#34;&gt;// End of for
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; false;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;p&gt;全排列问题还有很多种变形问题，比如涉及去重等等。后面再具体补充。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

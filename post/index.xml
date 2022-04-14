@@ -1,47 +1,245 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Bill&#39;s Thought</title>
-    <link>https://billguo.cc/post/</link>
-    <description>Recent content in Posts on Bill&#39;s Thought</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 28 Dec 2019 14:26:29 +0800</lastBuildDate><atom:link href="https://billguo.cc/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>我的2019</title>
-      <link>https://billguo.cc/post/personal/my-2019/</link>
-      <pubDate>Sat, 28 Dec 2019 14:26:29 +0800</pubDate>
-      
-      <guid>https://billguo.cc/post/personal/my-2019/</guid>
-      <description>我的2019 时间过得很快，一晃在杭州已经快三年半了。感觉这几年就没怎么好好总结过自己的工作和生活。从今年开始还是好好做一下这件事情，在脑子里</description>
-    </item>
-    
-    <item>
-      <title>Base64编码原理探究</title>
-      <link>https://billguo.cc/post/tech/base64/</link>
-      <pubDate>Wed, 10 Jul 2019 23:00:29 +0800</pubDate>
-      
-      <guid>https://billguo.cc/post/tech/base64/</guid>
-      <description>Base64背景 维基百科的解释 Base64是一种基于64个可打印字符来表示二进制数据的表示方法。由于2^6^=64，所以每6个bit为一个单</description>
-    </item>
-    
-    <item>
-      <title>sublime text3 常用快捷键</title>
-      <link>https://billguo.cc/post/tech/sublime-shortcut-keys/</link>
-      <pubDate>Fri, 16 Sep 2016 20:43:44 +0000</pubDate>
-      
-      <guid>https://billguo.cc/post/tech/sublime-shortcut-keys/</guid>
-      <description>Sublime Text3 常用的一些快捷键操作：包括跳转，编辑，选择，查找等。 Goto Anything (Navigation) Goto Anything: Ctrl + P Goto Symbol: Ctrl + R Goto Line: Ctrl + G Editing text Insert line before / after - Ctrl + Shift + Return / Ctrl + Return Copy line / Paste from history -</description>
-    </item>
-    
-    <item>
-      <title>全排列问题(1)</title>
-      <link>https://billguo.cc/post/tech/dfs/</link>
-      <pubDate>Tue, 11 Aug 2015 14:52:17 +0800</pubDate>
-      
-      <guid>https://billguo.cc/post/tech/dfs/</guid>
-      <description>全排列问题，指假如给定字符串，输出所有子串可能的排列的问题。解法比较多，递归非递归都可以。 深度优先搜素（Depth First Search,DFS) 搜索算法的一种。是沿着</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>Posts on Bill&#39;s Thought</title>
+        <link>https://billguo.cc/post/</link>
+        <description>Recent content in Posts on Bill&#39;s Thought</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 28 Dec 2019 14:26:29 +0800</lastBuildDate><atom:link href="https://billguo.cc/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>我的2019</title>
+        <link>https://billguo.cc/post/personal/my-2019/</link>
+        <pubDate>Sat, 28 Dec 2019 14:26:29 +0800</pubDate>
+        
+        <guid>https://billguo.cc/post/personal/my-2019/</guid>
+        <description>&lt;h1 id=&#34;我的2019&#34;&gt;我的2019&lt;/h1&gt;
+&lt;p&gt;时间过得很快，一晃在杭州已经快三年半了。感觉这几年就没怎么好好总结过自己的工作和生活。从今年开始还是好好做一下这件事情，在脑子里边空想，和用文字记录下来始终是不一样的。回顾下过去，也给明年定一下目标，而不是单纯的&lt;code&gt;mv 2019-todo.txt 2020-todo.txt&lt;/code&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
+&lt;p&gt;先说说工作上的事情。&lt;/p&gt;
+&lt;p&gt;本来年初的时候开始着手进行新系统的开发任务，使用的技术栈也是目前市场上相对比较主流的，这样自己的所学刚好能够有输出的地方。&lt;code&gt;Spring Boot&lt;/code&gt;和&lt;code&gt;Spring Cloud&lt;/code&gt;的相关组件，以前只是自己写着玩，现在总算能付诸在实际的产品中了。中间还搞了一段时间的&lt;code&gt;Vue&lt;/code&gt;组件的封装，做了一下前端组件的自动生成框架。但是好景不长，没做多久就由于组织架构调整，又把我调回去了。又回到以前&lt;code&gt;Spring MVC&lt;/code&gt;，写&lt;code&gt;Oracle&lt;/code&gt;存储过程的日子。好刀不磨会生锈，技术学了不用，也是会忘记的。&lt;/p&gt;
+&lt;p&gt;还好自己的相关工作也不是业务强相关的，也自己找了一些事情来做。包括老产品几个微服务的拆分，设计和实现，中间也学到了不少东西。倒也不是全无收获。&lt;/p&gt;
+&lt;h2 id=&#34;生活&#34;&gt;生活&lt;/h2&gt;
+&lt;p&gt;生活上可以说是糟透了。&lt;/p&gt;
+&lt;p&gt;工作中的不如意确实是会一点点影响生活的。由于最近一两年都疏于锻炼，身体状态可以说每况愈下。九月份的时候，突发了阑尾炎。由于一些原因当时又不能做手术，连续挂了好几天的水。今年以来，肠胃也是频频出问题，确实影响平时的状态，而且还带有轻微的焦虑症，也是来来去去跑了好几次医院。这种状态真的让人后背发凉，一个是身体上的折磨，一个是心理的焦虑。年纪轻轻，但是却像个几十岁的老人，没有朝气，自己想想也觉得可怕。&lt;/p&gt;
+&lt;h2 id=&#34;明年的打算&#34;&gt;明年的打算&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;回去割掉阑尾，检查一下肠胃，每天无论多忙也要适量运动。身体是革命的本钱，确实不是没有道理的。身体不断地给出警告，还不引起重视肯定不行。&lt;/li&gt;
+&lt;li&gt;多阅读源码。这段时间以来，进步缓慢，不只是身体的原因，也有自己懈怠的原因。之前定好了什么什么计划，实际落实的却没有多少，明年争取有所改变。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Java&lt;/code&gt;相关的技术栈，几种&lt;code&gt;MicroService&lt;/code&gt;或者&lt;code&gt;Serveless&lt;/code&gt;的解决方案都了解一下。&lt;/li&gt;
+&lt;li&gt;刷刷LeetCode，算法和数据结构不多多练习，忘记得太快了。&lt;/li&gt;
+&lt;li&gt;还有就是，写博客的这个习惯，以前我也经常写这个东西，但是记录下的东西感觉都是写皮毛，或者搞些很基础的东西，就相当于在制造垃圾，不怎么整理然后就删掉了。现在想想，其实放到自己的博客里边又有什么关系呢，反正也没人来看，就当自己的笔记好了。&lt;/li&gt;
+&lt;li&gt;每年其实也阅读了不少书籍，不管是技术类的还是社科类的，后面也单独弄一个文档记录下来，有些重要的可以用思维导图的方式自己终结归纳一下。学而时习之，不亦说乎？&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Base64编码原理探究</title>
+        <link>https://billguo.cc/post/tech/base64/</link>
+        <pubDate>Wed, 10 Jul 2019 23:00:29 +0800</pubDate>
+        
+        <guid>https://billguo.cc/post/tech/base64/</guid>
+        <description>&lt;h4 id=&#34;base64背景&#34;&gt;Base64背景&lt;/h4&gt;
+&lt;h5 id=&#34;维基百科的解释&#34;&gt;维基百科的解释&lt;/h5&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Base64&lt;/strong&gt;是一种基于64个可打印字符来表示二进制数据的表示方法。由于2^6^=64，所以每6个bit为一个单元，对应某个可打印字符。3个字节有24个bit，对应于4个Base64单元，即3个字节可由4个可打印字符来表示。它可用来作为电子邮件的传输编码。在Base64中的可打印字符包括字母&lt;code&gt;A-Z&lt;/code&gt;、&lt;code&gt;a-z&lt;/code&gt;、数字&lt;code&gt;0-9&lt;/code&gt;，这样共有62个字符，此外两个可打印符号在不同的系统中而不同。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h5 id=&#34;由来及场景&#34;&gt;由来及场景&lt;/h5&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在参数传输的过程中经常遇到的一种情况：使用全英文的没问题，但一旦涉及到中文就会出现乱码情况。与此类似，网络上传输的字符并不全是可打印的字符，比如二进制文件、图片等。Base64的出现就是为了解决此问题，它是基于64个可打印的字符来表示二进制的数据的一种方法。&lt;/p&gt;
+&lt;p&gt;电子邮件刚问世的时候，只能传输英文，但后来随着用户的增加，中文、日文等文字的用户也有需求，但这些字符并不能被服务器或网关有效处理，因此Base64就登场了。随之，Base64在URL、Cookie、网页传输少量二进制文件中也有相应的使用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h5 id=&#34;通常使用的字符&#34;&gt;通常使用的字符&lt;/h5&gt;
+&lt;blockquote&gt;
+&lt;p&gt;使用的字符包括大小写英文字母各26个、数字10个、加号&lt;code&gt;+&lt;/code&gt;和斜杠&lt;code&gt;/&lt;/code&gt;，共64个字符，等号&lt;code&gt;=&lt;/code&gt;用来作为后缀用途。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;算法简介&#34;&gt;算法简介&lt;/h4&gt;
+&lt;h5 id=&#34;编码过程&#34;&gt;编码过程&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;通常情况&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.loli.net/2019/08/19/wAI6OgLye95bpvM.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;1565001808032.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;将待编码的字符串中各个字母的ASCII码查出.&lt;/li&gt;
+&lt;li&gt;将ASCII码转化为8位2进制表示，如文本&lt;em&gt;M&lt;/em&gt;的ASCII码为&lt;code&gt;77&lt;/code&gt;，用二进制表示则为&lt;code&gt;01001101&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;由于每6个bit为一个单元，所以每6个二进制位转化成一个十进制数，即编码结果的ASCII码. 如&lt;code&gt;010011&lt;/code&gt;计算可得&lt;code&gt;19&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;转化所有编码结果即可.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;当字节不能被3整除时:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.loli.net/2019/08/19/NVT13aJqrZpcfzy.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;1565001979601.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;当无法被整除时，base64要在后面添加&lt;code&gt;\0&lt;/code&gt;凑齐&lt;code&gt;3n&lt;/code&gt;位，使二进制序列的长度成为&lt;code&gt;24&lt;/code&gt;的倍数(6和8的最小公倍数).&lt;/li&gt;
+&lt;li&gt;由于不断补&lt;code&gt;0&lt;/code&gt;,对应产生的空字符将用等号&lt;code&gt;=&lt;/code&gt;填充，所以等号的个数必为0个，1个或2个.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;其他场景&lt;/p&gt;
+&lt;p&gt;标准的Base64并不适合直接放在URL里传输，因为URL编码器会把标准Base64中的&lt;code&gt;/&lt;/code&gt;和&lt;code&gt;+&lt;/code&gt;字符变为形如&lt;code&gt;%XX&lt;/code&gt;的形式，而这些&lt;code&gt;%&lt;/code&gt;号在存入数据库时还需要再进行转换，因为ANSI SQL中已将&lt;code&gt;%&lt;/code&gt;号用作通配符。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; base64
+
+encode_str &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; base64&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;b64encode(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;ac&amp;gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;encode(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;))
+print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;result: &amp;#34;&lt;/span&gt;, encode_str)
+url_safe_encode_str &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; base64&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;urlsafe_b64encode(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;ac&amp;gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;encode(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;))
+print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;result: &amp;#34;&lt;/span&gt;, url_safe_encode_str)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;运行结果：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;Running&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; python -u &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;d:\urlsafe.py&amp;#34;&lt;/span&gt;
+result:  b&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;YWM+&amp;#39;&lt;/span&gt;
+result:  b&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;YWM-&amp;#39;&lt;/span&gt;
+
+&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;Done&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; exited with code&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; in 0.424 seconds
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;解码过程&#34;&gt;解码过程&lt;/h5&gt;
+&lt;p&gt;去掉末尾的等号&lt;code&gt;=&lt;/code&gt;。剩下的Base64字符，每8bit组成一个8bit字节，最后剩余不足8位的丢弃.&lt;/p&gt;
+&lt;h4 id=&#34;总结&#34;&gt;总结&lt;/h4&gt;
+&lt;p&gt;一般来说，由于使用base64编码后的长度通常是原字符长度的&lt;code&gt;4/3&lt;/code&gt;倍.
+&lt;!-- raw HTML omitted --&gt;其实在补&lt;code&gt;0&lt;/code&gt;的问题上，我也疑惑过为什么要一直补到&lt;code&gt;24&lt;/code&gt;的倍数. 实际上这样做不仅是实现上的问题，而且当两个编码结果进行拼接之后，解码过程也能顺利进行.这样一想，应该就能很好理解了.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>sublime text3 常用快捷键</title>
+        <link>https://billguo.cc/post/tech/sublime-shortcut-keys/</link>
+        <pubDate>Fri, 16 Sep 2016 20:43:44 +0000</pubDate>
+        
+        <guid>https://billguo.cc/post/tech/sublime-shortcut-keys/</guid>
+        <description>&lt;p&gt;Sublime Text3 常用的一些快捷键操作：包括跳转，编辑，选择，查找等。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;goto-anything-navigation&#34;&gt;Goto Anything (Navigation)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Goto Anything: &lt;code&gt;Ctrl + P&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Goto Symbol: &lt;code&gt;Ctrl + R&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Goto Line: &lt;code&gt;Ctrl + G&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;editing-text&#34;&gt;Editing text&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Insert line before / after - &lt;code&gt;Ctrl + Shift + Return&lt;/code&gt; / &lt;code&gt;Ctrl + Return&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Copy line / Paste from history - &lt;code&gt;Ctrl + C&lt;/code&gt; / &lt;code&gt;Ctrl + K, Ctrl + V&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Delete to beginning / end - &lt;code&gt;Ctrl + Shift + Backspace&lt;/code&gt; / &lt;code&gt;Ctrl + K&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Delete / Cut a line - &lt;code&gt;Ctrl + Shift + K&lt;/code&gt; / &lt;code&gt;Ctrl + X&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Soft Undo / Redo - &lt;code&gt;Ctrl + U&lt;/code&gt; / &lt;code&gt;Ctrl + Shift + U&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Upper / lower case - &lt;code&gt;Ctrl + K, Ctrl + U&lt;/code&gt; / &lt;code&gt;Ctrl + K, Ctrl + L&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Joining Lines - &lt;code&gt;Ctrl + J&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Bubble the line up / down - &lt;code&gt;Ctrl + Shift + up&lt;/code&gt; / &lt;code&gt;Ctrl + Shift + down&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Sort a line - &lt;code&gt;F9&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Duplicating a line - &lt;code&gt;Ctrl + Shift + D&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Indent - Unindent - &lt;code&gt;Ctrl + ]&lt;/code&gt;, &lt;code&gt;Ctrl + [&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Commenting a line - &lt;code&gt;Ctrl + /&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Close HTML tag - &lt;code&gt;Alt + .&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Wrap line at ruler - &lt;code&gt;Alt + Q&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Transpose - &lt;code&gt;Ctrl + T&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;selection&#34;&gt;Selection&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Multiple selection - &lt;code&gt;Ctrl + clicks at multiple places&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Column Selection - &lt;code&gt;Ctrl + Alt + Up&lt;/code&gt; or &lt;code&gt;Ctrl + Alt + Down&lt;/code&gt; / &lt;code&gt;Esc&lt;/code&gt; for going back to single&lt;/li&gt;
+&lt;li&gt;Split block of selection into multiple lines - &lt;code&gt;Ctrl + Shift + L&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Select word with multiple occurrences - &lt;code&gt;Ctrl + D&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Quick skip - &lt;code&gt;Ctrl + K, Ctrl + D&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Selecting a line - &lt;code&gt;Ctrl + L&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Expand selection to brackets - &lt;code&gt;Ctrl + Shift + M&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Expand selection to indentation - &lt;code&gt;Ctrl + Shift + J&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Expand selection to scope - &lt;code&gt;Ctrl + Shift + Space&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;navigation&#34;&gt;Navigation&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Goto symbol in project - &lt;code&gt;Ctrl + Shift + R&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Goto definition - &lt;code&gt;F12&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Goto beginning / end of a line - &lt;code&gt;Home&lt;/code&gt; / &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Goto matching bracket - &lt;code&gt;Ctrl + M&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Move back / forward in history - &lt;code&gt;Alt + -&lt;/code&gt; / &lt;code&gt;Alt + Shift + -&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Code fold / unfold - &lt;code&gt;Ctrl + Shift + [&lt;/code&gt; / &lt;code&gt;Ctrl + Shift + ]&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;find&#34;&gt;Find&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Find - &lt;code&gt;Ctrl + F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Find next - &lt;code&gt;F3&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Find previous - &lt;code&gt;Shift + F3&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Find all - &lt;code&gt;Alt + Return&lt;/code&gt; (while find window is open)&lt;/li&gt;
+&lt;li&gt;Use selection to find - &lt;code&gt;Ctrl + E&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Incremental find - &lt;code&gt;Ctrl + I&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Incremental find previous - &lt;code&gt;Ctrl + Shift + I&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Find all with incremental find - &lt;code&gt;Alt + Return&lt;/code&gt; (while the panel is open)&lt;/li&gt;
+&lt;li&gt;Replace panel - &lt;code&gt;Ctrl + H&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Replace next - &lt;code&gt;Ctrl + Shift + H&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Replace all - &lt;code&gt;Ctrl + Alt + Return&lt;/code&gt; (Only when replace panel is open)&lt;/li&gt;
+&lt;li&gt;Add selection to replace - &lt;code&gt;Ctrl + Shift + E&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Quick find - &lt;code&gt;Ctrl + F3&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Quick find previous - &lt;code&gt;Ctrl + Shift + F3&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Quick find all - &lt;code&gt;Alt + F3&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Find in project - &lt;code&gt;Ctrl + Shift + F&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;others&#34;&gt;Others&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Opening User settings - &lt;code&gt;^ + ,&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Python Console - &lt;code&gt;^ + Backticks&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Command Palette - &lt;code&gt;Ctrl + Shift + P&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>全排列问题(1)</title>
+        <link>https://billguo.cc/post/tech/dfs/</link>
+        <pubDate>Tue, 11 Aug 2015 14:52:17 +0800</pubDate>
+        
+        <guid>https://billguo.cc/post/tech/dfs/</guid>
+        <description>&lt;p&gt;全排列问题，指假如给定字符串，输出所有子串可能的排列的问题。解法比较多，递归非递归都可以。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;深度优先搜素（Depth First Search,DFS)
+搜索算法的一种。是沿着树的深度遍历树的节点，尽可能深的搜索树的分支。当节点 v 的所在边都己被探寻过，搜索将回溯到发现节点 v 的那条边的起始节点。这一过程一直进行到已发现从源节点可达的所有节点为止。如果还存在未被发现的节点，则选择其中一个作为源节点并重复以上过程，整个进程反复进行直到所有节点都被访问为止。属于盲目搜索。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;DFS 的基本模型：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;dfs&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; step)
+{
+    &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;判断边界&lt;/span&gt;
+    &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;尝试每一种可能&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt;(i&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;;i&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;=&lt;/span&gt;n;i&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;) {
+        &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;继续下一步&lt;/span&gt; dfs(step&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;);
+    }
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt;;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;关键代码：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;bool&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;dfs&lt;/span&gt;(string &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;bunch, &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; bLen, string str)
+{
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (bLen &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; str.length()) {
+            &lt;span style=&#34;color:#75715e&#34;&gt;//
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    }
+
+    string&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;size_type i;
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; (i &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;; i &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; bLen; &lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;i) {
+        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#f92672&#34;&gt;!&lt;/span&gt;vis[i]) {
+            vis[i] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; true;
+            str &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; bunch[i];
+            &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (dfs(bunch, bLen, str)) {
+                &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; true;
+            }
+            vis[i] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; false;
+            str &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; str.substr(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, str.length() &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;);
+        }
+    }   &lt;span style=&#34;color:#75715e&#34;&gt;// End of for
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; false;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;p&gt;全排列问题还有很多种变形问题，比如涉及去重等等。后面再具体补充。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

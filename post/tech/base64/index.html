@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" dir="ltr">
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Base64背景 维基百科的解释 Base64是一种基于64个可打印字符来表示二进制数据的表示方法。由于2^6^=64，所以每6个bit为一个单'><title>Base64编码原理探究</title>
 
 <link rel='canonical' href='https://billguo.cc/post/tech/base64/'>
 
-<link rel="stylesheet" href="/scss/style.min.775dbd4fd34fda61c5273b4bc3415f7c9666414fb6c40aab164a7ded4397da98.css"><meta property='og:title' content='Base64编码原理探究'>
+<link rel="stylesheet" href="/scss/style.min.450926226e724574a6b936335ea06111f8aeb253d932c86cb2cc807341cd2889.css"><meta property='og:title' content='Base64编码原理探究'>
 <meta property='og:description' content='Base64背景 维基百科的解释 Base64是一种基于64个可打印字符来表示二进制数据的表示方法。由于2^6^=64，所以每6个bit为一个单'>
 <meta property='og:url' content='https://billguo.cc/post/tech/base64/'>
 <meta property='og:site_name' content='Bill&#39;s Thought'>
@@ -14,8 +14,8 @@
 <meta name="twitter:description" content="Base64背景 维基百科的解释 Base64是一种基于64个可打印字符来表示二进制数据的表示方法。由于2^6^=64，所以每6个bit为一个单">
     </head>
     <body class="
-    article-page has-toc
-">
+    article-page
+    ">
     <script>
         (function() {
             const colorSchemeKey = 'StackColorScheme';
@@ -38,25 +38,78 @@
         }
     })();
 </script>
-<div class="container main-container flex 
-    
-        extended
-    
-">
-    
-        <div id="article-toolbar">
-            <a href="/" class="back-home">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_huda2458f72ce188392d75c5d51cd8e24e_373_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Bill&#39;s Thought</a></h1>
+            <h2 class="site-description"></h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
-  <polyline points="15 6 9 12 15 18" />
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
 </svg>
 
 
 
-                <span>返回</span>
-            </a>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>暗色模式</span>
+                </li>
+            
         </div>
-    
+    </ol>
+</aside>
 <main class="main full-width">
     <article class="main-article">
     <header class="article-header">
@@ -72,11 +125,13 @@
     </header>
     
 
-    <h2 class="article-title">
-        <a href="/post/tech/base64/">Base64编码原理探究</a>
-    </h2>
-
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/tech/base64/">Base64编码原理探究</a>
+        </h2>
     
+        
+    </div>
 
     
     <footer class="article-time">
@@ -112,10 +167,14 @@
         
     </footer>
     
+
+    
 </div>
 </header>
 
     <section class="article-content">
+    
+    
     <h4 id="base64背景">Base64背景</h4>
 <h5 id="维基百科的解释">维基百科的解释</h5>
 <blockquote>
@@ -135,20 +194,16 @@
 <ul>
 <li>通常情况</li>
 </ul>
-<p><figure 
-	>
-	<a href="https://i.loli.net/2019/08/19/wAI6OgLye95bpvM.png" >
-		<img src="https://i.loli.net/2019/08/19/wAI6OgLye95bpvM.png"
-			
-			
-			
-			loading="lazy"
-			alt="1565001808032.png">
-	</a>
+<p><img src="https://i.loli.net/2019/08/19/wAI6OgLye95bpvM.png"
 	
-	<figcaption>1565001808032.png</figcaption>
 	
-</figure></p>
+	
+	loading="lazy"
+	
+		alt="1565001808032.png"
+	
+	
+></p>
 <ol>
 <li>将待编码的字符串中各个字母的ASCII码查出.</li>
 <li>将ASCII码转化为8位2进制表示，如文本<em>M</em>的ASCII码为<code>77</code>，用二进制表示则为<code>01001101</code>.</li>
@@ -158,20 +213,16 @@
 <ul>
 <li>当字节不能被3整除时:</li>
 </ul>
-<p><figure 
-	>
-	<a href="https://i.loli.net/2019/08/19/NVT13aJqrZpcfzy.png" >
-		<img src="https://i.loli.net/2019/08/19/NVT13aJqrZpcfzy.png"
-			
-			
-			
-			loading="lazy"
-			alt="1565001979601.png">
-	</a>
+<p><img src="https://i.loli.net/2019/08/19/NVT13aJqrZpcfzy.png"
 	
-	<figcaption>1565001979601.png</figcaption>
 	
-</figure></p>
+	
+	loading="lazy"
+	
+		alt="1565001979601.png"
+	
+	
+></p>
 <ol>
 <li>当无法被整除时，base64要在后面添加<code>\0</code>凑齐<code>3n</code>位，使二进制序列的长度成为<code>24</code>的倍数(6和8的最小公倍数).</li>
 <li>由于不断补<code>0</code>,对应产生的空字符将用等号<code>=</code>填充，所以等号的个数必为0个，1个或2个.</li>
@@ -240,14 +291,34 @@ result:  b<span style="color:#e6db74">&#39;YWM-&#39;</span>
 
 
     
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css"integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js"integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js"integrity="sha384-vZTG03m&#43;2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.querySelector(`.article-content`), {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ]
+        });})
+</script>
+    
 </article>
 
     
 
-    <aside class="related-contents--wrapper">
     
-    
-</aside>
 
      
     
@@ -265,7 +336,7 @@ result:  b<span style="color:#e6db74">&#39;YWM-&#39;</span>
     
     <section class="powerby">
         Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.6.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.11.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
     </section>
 </footer>
 
@@ -334,11 +405,11 @@ result:  b<span style="color:#e6db74">&#39;YWM-&#39;</span>
 
 </div><script 
                 src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
-                defer="true"
+                defer
                 >
             </script><script 
                 src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
-                defer="true"
+                defer
                 >
             </script><link 
                 rel="stylesheet" 
@@ -350,41 +421,11 @@ result:  b<span style="color:#e6db74">&#39;YWM-&#39;</span>
 
             </main>
     
-        <aside class="sidebar right-sidebar sticky">
-            <section class="widget archives">
-                <div class="widget-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <line x1="5" y1="9" x2="19" y2="9" />
-  <line x1="5" y1="15" x2="19" y2="15" />
-  <line x1="11" y1="4" x2="7" y2="20" />
-  <line x1="17" y1="4" x2="13" y2="20" />
-</svg>
-
-
-
-                </div>
-                <h2 class="widget-title section-title">目录</h2>
-                
-                <div class="widget--toc">
-                    <nav id="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-                </div>
-            </section>
-        </aside>
-    
 
         </div>
         <script 
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
-                defer="false"
+                
                 >
             </script><script type="text/javascript" src="/ts/main.js" defer></script>
 <script>

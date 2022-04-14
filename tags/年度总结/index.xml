@@ -1,20 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>年度总结 on Bill&#39;s Thought</title>
-    <link>https://billguo.cc/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</link>
-    <description>Recent content in 年度总结 on Bill&#39;s Thought</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 28 Dec 2019 14:26:29 +0800</lastBuildDate><atom:link href="https://billguo.cc/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>我的2019</title>
-      <link>https://billguo.cc/post/personal/my-2019/</link>
-      <pubDate>Sat, 28 Dec 2019 14:26:29 +0800</pubDate>
-      
-      <guid>https://billguo.cc/post/personal/my-2019/</guid>
-      <description>我的2019 时间过得很快，一晃在杭州已经快三年半了。感觉这几年就没怎么好好总结过自己的工作和生活。从今年开始还是好好做一下这件事情，在脑子里</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>年度总结 on Bill&#39;s Thought</title>
+        <link>https://billguo.cc/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</link>
+        <description>Recent content in 年度总结 on Bill&#39;s Thought</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 28 Dec 2019 14:26:29 +0800</lastBuildDate><atom:link href="https://billguo.cc/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>我的2019</title>
+        <link>https://billguo.cc/post/personal/my-2019/</link>
+        <pubDate>Sat, 28 Dec 2019 14:26:29 +0800</pubDate>
+        
+        <guid>https://billguo.cc/post/personal/my-2019/</guid>
+        <description>&lt;h1 id=&#34;我的2019&#34;&gt;我的2019&lt;/h1&gt;
+&lt;p&gt;时间过得很快，一晃在杭州已经快三年半了。感觉这几年就没怎么好好总结过自己的工作和生活。从今年开始还是好好做一下这件事情，在脑子里边空想，和用文字记录下来始终是不一样的。回顾下过去，也给明年定一下目标，而不是单纯的&lt;code&gt;mv 2019-todo.txt 2020-todo.txt&lt;/code&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
+&lt;p&gt;先说说工作上的事情。&lt;/p&gt;
+&lt;p&gt;本来年初的时候开始着手进行新系统的开发任务，使用的技术栈也是目前市场上相对比较主流的，这样自己的所学刚好能够有输出的地方。&lt;code&gt;Spring Boot&lt;/code&gt;和&lt;code&gt;Spring Cloud&lt;/code&gt;的相关组件，以前只是自己写着玩，现在总算能付诸在实际的产品中了。中间还搞了一段时间的&lt;code&gt;Vue&lt;/code&gt;组件的封装，做了一下前端组件的自动生成框架。但是好景不长，没做多久就由于组织架构调整，又把我调回去了。又回到以前&lt;code&gt;Spring MVC&lt;/code&gt;，写&lt;code&gt;Oracle&lt;/code&gt;存储过程的日子。好刀不磨会生锈，技术学了不用，也是会忘记的。&lt;/p&gt;
+&lt;p&gt;还好自己的相关工作也不是业务强相关的，也自己找了一些事情来做。包括老产品几个微服务的拆分，设计和实现，中间也学到了不少东西。倒也不是全无收获。&lt;/p&gt;
+&lt;h2 id=&#34;生活&#34;&gt;生活&lt;/h2&gt;
+&lt;p&gt;生活上可以说是糟透了。&lt;/p&gt;
+&lt;p&gt;工作中的不如意确实是会一点点影响生活的。由于最近一两年都疏于锻炼，身体状态可以说每况愈下。九月份的时候，突发了阑尾炎。由于一些原因当时又不能做手术，连续挂了好几天的水。今年以来，肠胃也是频频出问题，确实影响平时的状态，而且还带有轻微的焦虑症，也是来来去去跑了好几次医院。这种状态真的让人后背发凉，一个是身体上的折磨，一个是心理的焦虑。年纪轻轻，但是却像个几十岁的老人，没有朝气，自己想想也觉得可怕。&lt;/p&gt;
+&lt;h2 id=&#34;明年的打算&#34;&gt;明年的打算&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;回去割掉阑尾，检查一下肠胃，每天无论多忙也要适量运动。身体是革命的本钱，确实不是没有道理的。身体不断地给出警告，还不引起重视肯定不行。&lt;/li&gt;
+&lt;li&gt;多阅读源码。这段时间以来，进步缓慢，不只是身体的原因，也有自己懈怠的原因。之前定好了什么什么计划，实际落实的却没有多少，明年争取有所改变。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Java&lt;/code&gt;相关的技术栈，几种&lt;code&gt;MicroService&lt;/code&gt;或者&lt;code&gt;Serveless&lt;/code&gt;的解决方案都了解一下。&lt;/li&gt;
+&lt;li&gt;刷刷LeetCode，算法和数据结构不多多练习，忘记得太快了。&lt;/li&gt;
+&lt;li&gt;还有就是，写博客的这个习惯，以前我也经常写这个东西，但是记录下的东西感觉都是写皮毛，或者搞些很基础的东西，就相当于在制造垃圾，不怎么整理然后就删掉了。现在想想，其实放到自己的博客里边又有什么关系呢，反正也没人来看，就当自己的笔记好了。&lt;/li&gt;
+&lt;li&gt;每年其实也阅读了不少书籍，不管是技术类的还是社科类的，后面也单独弄一个文档记录下来，有些重要的可以用思维导图的方式自己终结归纳一下。学而时习之，不亦说乎？&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

@@ -1,20 +1,91 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>other on Bill&#39;s Thought</title>
-    <link>https://billguo.cc/categories/other/</link>
-    <description>Recent content in other on Bill&#39;s Thought</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 16 Sep 2016 20:43:44 +0000</lastBuildDate><atom:link href="https://billguo.cc/categories/other/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>sublime text3 常用快捷键</title>
-      <link>https://billguo.cc/post/tech/sublime-shortcut-keys/</link>
-      <pubDate>Fri, 16 Sep 2016 20:43:44 +0000</pubDate>
-      
-      <guid>https://billguo.cc/post/tech/sublime-shortcut-keys/</guid>
-      <description>Sublime Text3 常用的一些快捷键操作：包括跳转，编辑，选择，查找等。 Goto Anything (Navigation) Goto Anything: Ctrl + P Goto Symbol: Ctrl + R Goto Line: Ctrl + G Editing text Insert line before / after - Ctrl + Shift + Return / Ctrl + Return Copy line / Paste from history -</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>other on Bill&#39;s Thought</title>
+        <link>https://billguo.cc/categories/other/</link>
+        <description>Recent content in other on Bill&#39;s Thought</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 16 Sep 2016 20:43:44 +0000</lastBuildDate><atom:link href="https://billguo.cc/categories/other/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>sublime text3 常用快捷键</title>
+        <link>https://billguo.cc/post/tech/sublime-shortcut-keys/</link>
+        <pubDate>Fri, 16 Sep 2016 20:43:44 +0000</pubDate>
+        
+        <guid>https://billguo.cc/post/tech/sublime-shortcut-keys/</guid>
+        <description>&lt;p&gt;Sublime Text3 常用的一些快捷键操作：包括跳转，编辑，选择，查找等。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;goto-anything-navigation&#34;&gt;Goto Anything (Navigation)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Goto Anything: &lt;code&gt;Ctrl + P&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Goto Symbol: &lt;code&gt;Ctrl + R&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Goto Line: &lt;code&gt;Ctrl + G&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;editing-text&#34;&gt;Editing text&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Insert line before / after - &lt;code&gt;Ctrl + Shift + Return&lt;/code&gt; / &lt;code&gt;Ctrl + Return&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Copy line / Paste from history - &lt;code&gt;Ctrl + C&lt;/code&gt; / &lt;code&gt;Ctrl + K, Ctrl + V&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Delete to beginning / end - &lt;code&gt;Ctrl + Shift + Backspace&lt;/code&gt; / &lt;code&gt;Ctrl + K&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Delete / Cut a line - &lt;code&gt;Ctrl + Shift + K&lt;/code&gt; / &lt;code&gt;Ctrl + X&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Soft Undo / Redo - &lt;code&gt;Ctrl + U&lt;/code&gt; / &lt;code&gt;Ctrl + Shift + U&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Upper / lower case - &lt;code&gt;Ctrl + K, Ctrl + U&lt;/code&gt; / &lt;code&gt;Ctrl + K, Ctrl + L&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Joining Lines - &lt;code&gt;Ctrl + J&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Bubble the line up / down - &lt;code&gt;Ctrl + Shift + up&lt;/code&gt; / &lt;code&gt;Ctrl + Shift + down&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Sort a line - &lt;code&gt;F9&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Duplicating a line - &lt;code&gt;Ctrl + Shift + D&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Indent - Unindent - &lt;code&gt;Ctrl + ]&lt;/code&gt;, &lt;code&gt;Ctrl + [&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Commenting a line - &lt;code&gt;Ctrl + /&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Close HTML tag - &lt;code&gt;Alt + .&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Wrap line at ruler - &lt;code&gt;Alt + Q&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Transpose - &lt;code&gt;Ctrl + T&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;selection&#34;&gt;Selection&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Multiple selection - &lt;code&gt;Ctrl + clicks at multiple places&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Column Selection - &lt;code&gt;Ctrl + Alt + Up&lt;/code&gt; or &lt;code&gt;Ctrl + Alt + Down&lt;/code&gt; / &lt;code&gt;Esc&lt;/code&gt; for going back to single&lt;/li&gt;
+&lt;li&gt;Split block of selection into multiple lines - &lt;code&gt;Ctrl + Shift + L&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Select word with multiple occurrences - &lt;code&gt;Ctrl + D&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Quick skip - &lt;code&gt;Ctrl + K, Ctrl + D&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Selecting a line - &lt;code&gt;Ctrl + L&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Expand selection to brackets - &lt;code&gt;Ctrl + Shift + M&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Expand selection to indentation - &lt;code&gt;Ctrl + Shift + J&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Expand selection to scope - &lt;code&gt;Ctrl + Shift + Space&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;navigation&#34;&gt;Navigation&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Goto symbol in project - &lt;code&gt;Ctrl + Shift + R&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Goto definition - &lt;code&gt;F12&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Goto beginning / end of a line - &lt;code&gt;Home&lt;/code&gt; / &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Goto matching bracket - &lt;code&gt;Ctrl + M&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Move back / forward in history - &lt;code&gt;Alt + -&lt;/code&gt; / &lt;code&gt;Alt + Shift + -&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Code fold / unfold - &lt;code&gt;Ctrl + Shift + [&lt;/code&gt; / &lt;code&gt;Ctrl + Shift + ]&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;find&#34;&gt;Find&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Find - &lt;code&gt;Ctrl + F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Find next - &lt;code&gt;F3&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Find previous - &lt;code&gt;Shift + F3&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Find all - &lt;code&gt;Alt + Return&lt;/code&gt; (while find window is open)&lt;/li&gt;
+&lt;li&gt;Use selection to find - &lt;code&gt;Ctrl + E&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Incremental find - &lt;code&gt;Ctrl + I&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Incremental find previous - &lt;code&gt;Ctrl + Shift + I&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Find all with incremental find - &lt;code&gt;Alt + Return&lt;/code&gt; (while the panel is open)&lt;/li&gt;
+&lt;li&gt;Replace panel - &lt;code&gt;Ctrl + H&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Replace next - &lt;code&gt;Ctrl + Shift + H&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Replace all - &lt;code&gt;Ctrl + Alt + Return&lt;/code&gt; (Only when replace panel is open)&lt;/li&gt;
+&lt;li&gt;Add selection to replace - &lt;code&gt;Ctrl + Shift + E&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Quick find - &lt;code&gt;Ctrl + F3&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Quick find previous - &lt;code&gt;Ctrl + Shift + F3&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Quick find all - &lt;code&gt;Alt + F3&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Find in project - &lt;code&gt;Ctrl + Shift + F&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;others&#34;&gt;Others&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Opening User settings - &lt;code&gt;^ + ,&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Python Console - &lt;code&gt;^ + Backticks&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Command Palette - &lt;code&gt;Ctrl + Shift + P&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>
