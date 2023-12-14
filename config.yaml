@@ -21,6 +21,8 @@ module:
     hugoVersion:
         extended: true
         min: "0.87.0"
+    imports:
+        - path: github.com/CaiJimmy/hugo-theme-stack/v3
 
 permalinks:
     post: /p/:slug/
