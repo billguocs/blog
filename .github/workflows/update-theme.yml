@@ -20,6 +20,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - uses: actions/setup-go@v4
+        with:
+            go-version: "^1.17.0"
+      - run: go version
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
