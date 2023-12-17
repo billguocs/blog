@@ -37,7 +37,7 @@ params:
 
     footer:
         since: 2016
-        customText: 遇上方知有
+        customText: 吾生也有涯，而知也无涯
 
     dateFormat:
         published: Jan 02, 2006
@@ -61,7 +61,7 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: true
+        enabled: false
         provider: disqus
 
         disqusjs:
@@ -182,7 +182,7 @@ menu:
           weight: -100
           params:
             icon: home
-            newTab: true
+            newTab: false
 
     social:
         - identifier: github
