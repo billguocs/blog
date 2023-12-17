@@ -92,9 +92,9 @@ jobs:
           # # Enable the GitHub Pages built-in Jekyll
           # enable_jekyll: # optional, default is false
           # # An alias for enable_jekyll to disable adding .nojekyll file to a publishing branch
-          # disable_nojekyll: # optional, default is false
+          disable_nojekyll: true
           # # Set custom domain
-          # cname: # optional
+          cname: billguo.cc
           # # Set files or directories to exclude from a publish directory.
           # exclude_assets: # optional, default is .github
           
