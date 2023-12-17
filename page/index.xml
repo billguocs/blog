@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Bill's Thought</title><link>https://billguo.cc/page/</link><description>Recent content in Pages on Bill's Thought</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 06 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://billguo.cc/page/index.xml" rel="self" type="application/rss+xml"/><item><title>Archives</title><link>https://billguo.cc/archives/</link><pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate><guid>https://billguo.cc/archives/</guid><description/></item><item><title>About</title><link>https://billguo.cc/about/</link><pubDate>Tue, 14 Jul 2015 21:38:52 +0800</pubDate><guid>https://billguo.cc/about/</guid><description>&lt;p>Bill Guo&lt;/p>
+&lt;ul>
+&lt;li>邮箱：billguocs#gmail.com&lt;/li>
+&lt;li>技能：&lt;code>Java&lt;/code> &lt;code>Spring&lt;/code> &lt;code>Javascript&lt;/code> &lt;code>Python&lt;/code> &lt;code>Go&lt;/code>&lt;/li>
+&lt;li>简介：&lt;del>全栈&lt;/del>工程师，文史爱好者，终生学习践行者，常有三分热度，并无十分成果&lt;/li>
+&lt;/ul></description></item><item><title>Links</title><link>https://billguo.cc/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://billguo.cc/links/</guid><description>&lt;!-- To use this feature, add `links` section to frontmatter.
+This page's frontmatter:
+```yaml
+links:
+- title: GitHub
+description: GitHub is the world's largest software development platform.
+website: https://github.com
+image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+```
+`image` field accepts both local and external images. --></description></item><item><title>Search</title><link>https://billguo.cc/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://billguo.cc/search/</guid><description/></item></channel></rss>
